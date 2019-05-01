@@ -1,4 +1,10 @@
 [![Build Status](https://travis-ci.org/GohelGaurav/ci-example.svg?branch=master)](https://travis-ci.org/GohelGaurav/ci-example)
+![GitHub repo size](https://img.shields.io/github/repo-size/gohelgaurav/ci-example.svg)
+![GitHub](https://img.shields.io/github/license/gohelgaurav/ci-example.svg)
+![GitHub package.json version](https://img.shields.io/github/package-json/v/gohelgaurav/ci-example.svg)
+![GitHub forks](https://img.shields.io/github/forks/GohelGaurav/ci-example.svg?label=Forks&style=social)
+![GitHub language count](https://img.shields.io/github/languages/count/gohelgaurav/ci-example.svg)
+![GitHub language count](https://img.shields.io/github/languages/top/gohelgaurav/ci-example.svg)
 # CiExample
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.4.
