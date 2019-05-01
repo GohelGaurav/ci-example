@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/GohelGaurav/ci-example.svg?branch=master)](https://travis-ci.org/GohelGaurav/ci-example)
+[![Build Status](https://travis-ci.org/GohelGaurav/ci-example.svg?branch=develop)](https://travis-ci.org/GohelGaurav/ci-example)
 # CiExample
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.4.
