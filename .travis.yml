@@ -35,4 +35,4 @@ deploy:
 
 after_success:
   - echo "Deploying To VM"
-  - find ./dist/ci-example/ -type f -exec curl -T {} ${FTP_URL} -u ${FTP_USER}:${FTP_PASS} \;
+  - find ./dist/ci-example/ -type f -exec curl -T {} ${FTP_URL} -u ${FTP_USER}:${FTP_PASS} --ftp-method singlecwd \;
