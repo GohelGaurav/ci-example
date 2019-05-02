@@ -35,4 +35,4 @@ deploy:
 
 after_success:
   - echo "Deploying To VM"
-  - find ./dist/ci-example -type f -exec curl -u dlpuser@dlptest.com:5p2tvn92R0di8FdiLCfzeeT0b --ftp-create-dirs -T {}  ftp://ftp.dlptest.com/TestFolder/{} \;
+  - find ./dist/ci-example -type f -exec curl -u ${FTP_USERT}:${FTP_PASS} --ftp-create-dirs -T {}  ${FTP_PATH}{} \;
